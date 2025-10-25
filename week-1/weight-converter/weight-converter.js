@@ -7,8 +7,6 @@
 
 "use strict";
 
-// TODO: Implement the weight conversion logic here
-
 /**
  * Node.js script to convert pounds to kilograms.
  * Usage: node weight-converter.js <pounds>
@@ -31,5 +29,5 @@ if (Number.isNaN(pounds)) {
 const KG_PER_POUND = 0.45359237;
 const kilograms = pounds * KG_PER_POUND;
 
-// Print result with two decimal places
-console.log(`${pounds} lb = ${kilograms.toFixed(2)} kg`);
+// Output only the numeric kilogram value with two decimals
+console.log(kilograms.toFixed(2));
