@@ -1,0 +1,12 @@
+{
+  "name": "cooking-app",
+  "version": "1.0.0",
+  "description": "Simple cooking CLI app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tester.js"
+  },
+  "author": "Aisha Keller",
+  "license": "ISC"
+}
