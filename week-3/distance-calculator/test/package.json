@@ -1,0 +1,7 @@
+{
+    "name": "distance-calculator",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "node --use_strict --test"
+    }   
+}
