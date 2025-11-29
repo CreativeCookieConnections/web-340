@@ -1,19 +1,22 @@
 {
   "name": "fantasy-game-character-creation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fantasy game character creation server with TDD",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node src/server.js"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
+    "@types/node": "^20.5.6",
     "jest": "^29.7.0"
   }
 }
