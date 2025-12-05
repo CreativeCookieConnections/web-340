@@ -10,7 +10,7 @@
 "use strict";
 
 const assert = require("assert");
-const TacoStandEmitter = require("../src/tacoStand");
+const TacoStandEmitter = require("../src/taco-stand");
 const tacoStand = new TacoStandEmitter();
 
 // Test 1: serveCustomer method
@@ -21,8 +21,8 @@ function testServeCustomer() {
             assert.strictEqual(customer, "John Doe");
         });
 
-        // Call the serverCustomer method
-        tacoStand.serverCustomer("John Doe");
+        // Call the serveCustomer method
+        tacoStand.serveCustomer("John Doe");
 
         console.log("Passed testServeCustomer");
     } catch (error) {
