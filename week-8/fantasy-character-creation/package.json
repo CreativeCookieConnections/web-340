@@ -1,16 +1,24 @@
 {
   "name": "fantasy-character-creation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A character creation system for a fantasy video game using TDD principles",
+  "main": "src/character-creation.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "demo": "node demo.js",
+    "manual-test": "node manual-test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "fantasy",
+    "character",
+    "creation",
+    "tdd",
+    "jest"
+  ],
+  "author": "Aisha Keller",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
